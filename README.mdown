@@ -3,7 +3,7 @@ NYTimes Flickr Machine Tagger
 
 The New York Times Flickr Machine Tagger is a [Greasemonkey][] script which enables easy machine-tagging of Flickr photos with relevant http://data.nytimes.com identifiers.
 
-It was created during [The New York Times Open Hack Day 2010](http://open.blogs.nytimes.com/2010/12/06/timesopen-hack-day-wrap-up/) by [Chris Martin](http://about.me/cjmartin) [@cjmartin](http://twitter.com/cjmartin) and [Jake Porway](http://jakeporway.com/).
+It was created during [The New York Times Open Hack Day 2010](http://open.blogs.nytimes.com/2010/12/06/timesopen-hack-day-wrap-up/) by [Chris Martin](http://about.me/cjmartin) ([@cjmartin](http://twitter.com/cjmartin)) and [Jake Porway](http://jakeporway.com/).
 
 Installation
 ============
