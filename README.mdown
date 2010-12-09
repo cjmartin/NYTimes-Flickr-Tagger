@@ -1,12 +1,16 @@
 NYTimes Flickr Machine Tagger
 =============================
 
-The New York Times Flickr Machine Tagger is a Greasemonkey script which enables easy machine-tagging of Flickr photos with relevant data.nytimes.com identifiers.
+The New York Times Flickr Machine Tagger is a [Greasemonkey][] script which enables easy machine-tagging of Flickr photos with relevant http://data.nytimes.com identifiers.
+
+It was created during [The New York Times Open Hack Day 2010](http://open.blogs.nytimes.com/2010/12/06/timesopen-hack-day-wrap-up/) by [Chris Martin](http://about.me/cjmartin) [@cjmartin](http://twitter.com/cjmartin) and [Jake Porway](http://jakeporway.com/).
 
 Installation
 ============
 
-The current implementation runs as a [Greasemonkey][] script and has been tested in Firefox 3.6.12. Since tagging photos on Flickr requires authentication, it is necessary to add a Flickr API key, secret, and user token, as well as a NYT API key, to the top of the script before installing. Obtaining these credentials is non-trivial, so for now installation is limited to people who already know how to get them.
+The current implementation runs as a [Greasemonkey][] script and has been tested in Firefox 3.6.12.
+
+Since tagging photos on Flickr requires authentication, it is necessary to add a Flickr API key, secret, and user token, as well as a NYT API key, to the top of the script before installing. Obtaining these credentials is non-trivial, so for now installation is limited to people who already know how to get them.
 
 Once the API credentials are filled in, installation is as simple as opening the script in Firefox with Greasemonkey installed.
 
