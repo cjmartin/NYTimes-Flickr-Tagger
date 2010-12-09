@@ -1,0 +1,36 @@
+NYTimes Flickr Machine Tagger
+=============================
+
+The New York Times Flickr Machine Tagger is a Greasemonkey script which enables easy machine-tagging of Flickr photos with relevant data.nytimes.com identifiers.
+
+Installation
+============
+
+The current implementation runs as a [Greasemonkey][] script and has been tested in Firefox 3.6.12. Since tagging photos on Flickr requires authentication, it is necessary to add a Flickr API key, secret, and user token, as well as a NYT API key, to the top of the script before installing. Obtaining these credentials is non-trivial, so for now installation is limited to people who already know how to get them.
+
+Once the API credentials are filled in, installation is as simple as opening the script in Firefox with Greasemonkey installed.
+
+Hopefully a server-side proxy and simple installation method will be developed soon.
+
+Use
+===
+
+Once the script is installed, it activates automatically when browsing articles on [http://nytimes.com](http://nytimes.com).
+
+[![](http://farm6.static.flickr.com/5169/5244460216_7aa12286ee_z.jpg)](http://www.flickr.com/photos/cjmartin/5244460216/)
+
+To view available tags for the current article, click on the Flickr logo. Then to see photos for a tag, click on the tag.
+
+[![](http://farm6.static.flickr.com/5081/5243868631_414b873369_z.jpg)](http://www.flickr.com/photos/cjmartin/5243868631/)
+
+Once the images have loaded, click on any images that are relevant to the chosen tag and a machine tag will be added to the photo on Flickr.
+
+[![](http://farm6.static.flickr.com/5081/5243892555_9f3319748b_z.jpg)](http://www.flickr.com/photos/cjmartin/5243892555/)
+
+Issues
+======
+
+* Currently Flickr only processes nyt:person machine tags, and this processing doesn't seem to work for all tags. I'm sure they'll fix that soon.
+* The script is too hard to install.
+
+[Greasemonkey]: https://addons.mozilla.org/en-US/firefox/addon/748/
